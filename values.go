@@ -2,13 +2,6 @@ package main
 import "fmt"
 
 func main() {
-fmt.Println("\nValues")
-fmt.Println("go"+"lang")
-fmt.Println("1+1",1+1)
-fmt.Println("7.0/3.0",7.0/3.0)
-fmt.Println(true && false)
-fmt.Println(true || false)
-fmt.Println(!true && !false)
 
 fmt.Println("\nVars")
 
@@ -26,5 +19,13 @@ fmt.Println(e)
 
 f := "short form for initializing variables"
 fmt.Println(f)
+
+fmt.Println("\nValues")
+fmt.Println("go"+"lang")
+fmt.Println("1+1",1+1)
+fmt.Println("7.0/3.0",7.0/3.0)
+fmt.Println(true && false)
+fmt.Println(true || false)
+fmt.Println(!true && !false)
 
 }
